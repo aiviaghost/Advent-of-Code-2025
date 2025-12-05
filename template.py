@@ -5,7 +5,7 @@ from functools import reduce
 from itertools import accumulate, combinations, product
 
 with open("input", "r") as f:
-    data = f.readlines()
+    data = list(map(str.strip, f.readlines()))
 
 
 def solve_1():

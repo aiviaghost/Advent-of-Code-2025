@@ -1,7 +1,7 @@
 import math
 import re
 from collections import Counter, defaultdict
-from functools import reduce
+from functools import reduce, cache
 from itertools import accumulate, combinations, product
 
 with open("input", "r") as f:
